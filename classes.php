@@ -1,6 +1,6 @@
 <?php
 
-class Publication
+abstract class Publication
 {
 
     public $id;
@@ -11,6 +11,8 @@ class Publication
     public $preview;
     public $author_name;
     public $type;
+
+    abstract public function printItem();// сообщает что необходимо дабавить данный метод в новом классе
 
     function __construct($row)
     {
