@@ -1,7 +1,7 @@
 # oop
 <pre>
 Имя базы данных:
-test2 
+testsite2
 без пароля!
 юзер:
 root!
